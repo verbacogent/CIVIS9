@@ -1,0 +1,15 @@
+name: craap-test-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - requests
+  - beautifulsoup4
+  - sentence-transformers
+  - vaderSentiment
+  - textblob
+  - numpy
+  - pip
+  - pip:
+      - transformers  # for using transformer-based models like SentenceTransformers
